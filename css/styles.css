@@ -80,7 +80,7 @@ button {
 }
 
 label {
-    display: inline-block;
+    display: block;
     margin: 15px 0;
     color: #888888;
 }
@@ -148,6 +148,24 @@ select {
     form {
         max-width: 850px;
     }
-    
+
+    .grid-container-text {
+        display: grid;
+        grid-template-columns: auto 600px;
+        grid-row-gap: 25px;
+    }
+
+    .grid-container-checkbox {
+        display: grid;
+        grid-template-columns: 50px auto;
+        grid-column: -2 / -1.5;
+    }
+
+    .grid-container-radio {
+        display: grid;
+        grid-template-columns: 50px auto;
+    }
+
+   
 }
 
