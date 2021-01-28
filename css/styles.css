@@ -141,7 +141,19 @@ select {
     padding: 35px 0;
 }
 
+.grid-container-checkbox {
+    display: grid;
+    grid-template-columns: 50px auto;
+}
 
+.grid-container-radio {
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+
+.checkbox-radio {
+    align-self: center;
+}
 
 @media (min-width: 768px) {
 
@@ -155,17 +167,5 @@ select {
         grid-row-gap: 25px;
     }
 
-    .grid-container-checkbox {
-        display: grid;
-        grid-template-columns: 50px auto;
-        grid-column: -2 / -1.5;
-    }
-
-    .grid-container-radio {
-        display: grid;
-        grid-template-columns: 50px auto;
-    }
-
-   
 }
 
