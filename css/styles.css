@@ -2,8 +2,10 @@
     box-sizing: border-box;
 }
 
+/*** left of here - playing around with focus ***/
 :focus {
     color: #001a33;
+    box-shadow:;
 }
 
 body {
@@ -143,20 +145,16 @@ select {
 
 .grid-container-checkbox {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 30px auto;
 }
 
 .grid-container-radio {
     display: grid;
-    grid-template-columns: 50px auto;
+    grid-template-columns: 30px auto;
 }
 
 .checkbox-radio {
     align-self: center;
-}
-
-.dropdown-container {
-    
 }
 
 @media (min-width: 768px) {
