@@ -73,14 +73,16 @@ input[id="zip"] {
     padding: 20px;
 }
 
-
-/** need to figure out how to center button **/
 button {
     width: 95%;
     border-radius: 4px;
     background-color: #009999;
     color: #f2f2f2;
     font-size: 1em;
+}
+.center-button {
+    display: flex;
+    justify-content: center;
 }
 
 .grid-container-text label {
