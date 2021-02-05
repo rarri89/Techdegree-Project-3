@@ -73,17 +73,25 @@ input[id="zip"] {
     padding: 20px;
 }
 
+
+/** need to figure out how to center button **/
 button {
-    width: 100%;
+    width: 95%;
     border-radius: 4px;
     background-color: #009999;
     color: #f2f2f2;
     font-size: 1em;
 }
 
-label {
+.grid-container-text label {
     display: block;
     margin: 15px 0;
+    color: #888888;
+}
+
+.newsletter label {
+    display: block;
+    margin-bottom: 7px;
     color: #888888;
 }
 
@@ -146,11 +154,16 @@ select {
 .grid-container-checkbox {
     display: grid;
     grid-template-columns: 30px auto;
+    margin-bottom: 17px;
+    grid-row-gap: 10px;
+
 }
 
 .grid-container-radio {
     display: grid;
     grid-template-columns: 30px auto;
+    margin-bottom: 17px;
+    grid-row-gap: 10px;
 }
 
 .checkbox-radio {
