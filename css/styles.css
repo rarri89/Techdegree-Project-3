@@ -2,12 +2,6 @@
     box-sizing: border-box;
 }
 
-/*** left of here - playing around with focus ***/
-:focus {
-    color: #001a33;
-    box-shadow:;
-}
-
 body {
     font-family: 'Merriweather', serif;
     background-color: #ffffff;
@@ -171,6 +165,23 @@ select {
 .checkbox-radio {
     align-self: center;
 }
+
+/**** psuedo elements ****/
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: dotted;
+    color: red;
+}
+
+button:hover {
+    background-color: #f2f2f2;
+    color: #009999;
+}
+
+/**** media queries ****/
 
 @media (min-width: 768px) {
 
