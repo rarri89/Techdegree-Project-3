@@ -176,8 +176,9 @@ input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-    outline: solid;
-    color: #1a8af3;
+    outline: #074b8b groove 3px;
+    outline-offset: 4px;
+    border-radius: 1rem;
 }
 
 button:hover {
