@@ -87,7 +87,6 @@ input[type="radio"] {
     margin: 0 5px 9px 0;
 }
 
-
 input[type="checkbox"],
 input[type="radio"],
 input[type="submit"],
@@ -127,7 +126,7 @@ button {
     justify-content: center;
 }
 
-/*** Contact Info Fieldset Styles ***/
+/*** Contact Fieldset Styles ***/
 .grid-container-text label {
     display: block;
     margin: 15px 0;
