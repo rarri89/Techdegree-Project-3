@@ -10,7 +10,7 @@ body {
 }
 
 .main-header {
-    background-color: #00111a;
+    background-color: #043c5a;
     background-size: cover;
     color: #ffffff;
     text-transform: uppercase;
@@ -117,7 +117,7 @@ button {
 }
 
 input[id="zip"] {
-    width: 30%;
+    width: 50%;
     padding: 20px;
 }
 
@@ -214,6 +214,11 @@ button:hover {
 
     form {
         max-width: 850px;
+    }
+
+    input[id="zip"] {
+        width: 30%;
+        padding: 20px;
     }
 
     .grid-container-text {
